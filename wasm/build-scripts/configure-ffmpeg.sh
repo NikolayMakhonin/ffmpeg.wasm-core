@@ -19,7 +19,6 @@ FLAGS=(
   --enable-libfreetype    # enable freetype
   --enable-libopus        # enable opus
   --enable-libwebp        # enable libwebp
-  --enable-libass         # enable libass
   --enable-libfribidi     # enable libfribidi
   # --enable-libaom         # enable libaom
 )

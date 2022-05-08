@@ -29,7 +29,6 @@ run-all() {
     build-freetype2
     build-fribidi
     build-harfbuzz
-    build-libass
     #build-aom # disabled as it is extremely slow
     configure-ffmpeg
     build-ffmpeg
