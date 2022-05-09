@@ -22,6 +22,7 @@ FLAGS=(
   -s EXPORTED_FUNCTIONS="[_main, _proxy_main]"  # export main and proxy_main funcs
   -s EXTRA_EXPORTED_RUNTIME_METHODS="[FS, cwrap, ccall, setValue, writeAsciiToMemory]"   # export preamble funcs
   -s INITIAL_MEMORY=1073741824                  # 1073741824 bytes = 1 GB
+  -s ASSERTIONS=1
   $OPTIM_FLAGS
 )
 echo "FFMPEG_EM_FLAGS=${FLAGS[@]}"
